@@ -170,18 +170,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
 }
 
-#main-nav img {
-    width: 180px;
-}
-
 #main-nav ul {
     display: flex;
     justify-self: end;
 }
 
+#main-nav img {
+    width: 180px;
+}
+
 #main-nav ul li a {
     padding: 0.75rem 1rem;
     font-weight: bold;
+    border-radius: 2px;
 }
 
 #main-nav ul li a:hover {
@@ -210,6 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------------------------------------------------------------------------------------------------------- */
 /*                                           INDEX PAGE                                                       */
 /* ---------------------------------------------------------------------------------------------------------- */
+
 /* Showcase */
 #showcase {
     background: var(--dark-color);
@@ -315,13 +317,6 @@ h1, h2, h3, h4, h5, h6 {
 .page-container > *:first-child {
     grid-row: 1 / span 3;
 }
-
-
-
-
-
-
-
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /*                                           ARTICLE PAGE                                                     */
